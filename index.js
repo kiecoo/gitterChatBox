@@ -1,4 +1,4 @@
-module.exports = gitterChatBox     
+module.exports = makeGitterChatbox     
 
 function makeGitterURL (username) {
   return `https://gitter.im/${username}/~embed`
