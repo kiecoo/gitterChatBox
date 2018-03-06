@@ -1,20 +1,20 @@
-# gitterChatBox
+# makeGitterChatbox
 Embed Gitter-Chat-Box into the page
 
 
-See [demo](https://kiecoo.github.io/gitterChatBox/)
+See [demo](https://kiecoo.github.io/makeGitterChatbox/)
 
 
 
-You can use `gitterChatBox` as an NPM module
-
-```
-npm install gitterChatBox
-```
+You can use `makeGitterChatbox` as an NPM module
 
 ```
-var card = require('gitterChatBox')
+npm install makeGitterChatbox
+```
 
-var el = gitterChatBox()
+```
+var Chatbox1 = require('makeGitterChatbox')
+
+var el = Chatbox1()
 document.body.appendChild(el)
 ```
